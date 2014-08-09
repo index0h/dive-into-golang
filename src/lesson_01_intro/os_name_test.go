@@ -1,8 +1,8 @@
 package lesson_01_intro
 
 import (
-	"testing"
 	"runtime"
+	"testing"
 )
 
 func TestGetOSType(t *testing.T) {
