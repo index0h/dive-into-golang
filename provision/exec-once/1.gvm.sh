@@ -28,6 +28,8 @@ done
 gvm cross linux arm > /dev/null 2>&1
 
 rm \$GVM_INSTALLER
+
+export GOPATH=$GOPATH:/home/vagrant/work
 " > $TMP_SCRIPT
 
 chmod 0777 $TMP_SCRIPT

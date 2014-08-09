@@ -1,4 +1,4 @@
-package main
+package lesson_01_intro
 
 import (
 	"testing"
