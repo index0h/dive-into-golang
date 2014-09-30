@@ -6,8 +6,8 @@ import (
 
 func main() {
 	var first [2]bool
-	second := [...]int {-1, -2, -3}
-	third := [6]uint {1, 2, 3, 4, 5, 6}
+	second := [...]int{-1, -2, -3}
+	third := [6]uint{1, 2, 3, 4, 5, 6}
 
 	var fourth [2][2]float32
 	fifth := [2][2]float32 {{1}, {5.4, 7.7}}
