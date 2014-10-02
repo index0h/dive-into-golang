@@ -23,7 +23,7 @@
 * 07 - [Массивы (array)](https://www.youtube.com/watch?v=mOSDK6dsOxY)
 * 08 - [Срезы (slice)](https://www.youtube.com/watch?v=wOPQ5a1f47A)
 * 09 - [Строки (string)](https://www.youtube.com/watch?v=NTNBno1ZQoY)
-* 10 - Отображения (map)
+* 10 - [Отображения (map)](https://www.youtube.com/watch?v=8MT3GYyf8KE)
 * 11 - Указатели
 * ?? - Chain
 
