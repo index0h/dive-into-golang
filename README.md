@@ -29,6 +29,14 @@
 
 ### Инструкции
 
-* 12 - Условия (if)
-* 13 - Циклы (for)
-* ?? - Select
+* 12 - [Ветвление (if)](https://www.youtube.com/watch?v=oxuuFCQAOF8)
+* 13 - Ветвление (switch)
+* 14 - Циклы (for)
+* ?? - defer
+* ?? - select
+* ?? - go
+
+### Спец функции
+
+* ?? - init, main
+* ?? - panic, recover
