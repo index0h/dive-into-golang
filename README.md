@@ -30,7 +30,7 @@
 ### Инструкции
 
 * 12 - [Ветвление (if)](https://www.youtube.com/watch?v=oxuuFCQAOF8)
-* 13 - Ветвление (switch)
+* 13 - [Ветвление (switch)](https://www.youtube.com/watch?v=bK_YLt7kStg)
 * 14 - Циклы (for)
 * ?? - defer
 * ?? - select

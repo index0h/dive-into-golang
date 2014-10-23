@@ -4,10 +4,6 @@ import (
 	"fmt"
 )
 
-func getSuffix() string {
-	return "jpg"
-}
-
 func main() {
 
 	fmt.Print("First:  ")
@@ -19,7 +15,7 @@ func main() {
 	}
 
 	fmt.Print("Second: ")
-	switch suffix := getSuffix(); suffix {
+	switch suffix := "jpg"; suffix {
 	case "png":
 		fallthrough
 	case "jpg":
@@ -31,6 +27,7 @@ func main() {
 	}
 
 	var someObject interface{}
+	someObject = 5
 
 	fmt.Print("Third:  ")
 	switch someObject.(type) {
