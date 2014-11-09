@@ -14,7 +14,7 @@ func second() {
 		}
 	}()
 
-	panic("Something goes wrong((")
+	panic("Something went wrong((")
 
 	fmt.Println("second.end")
 }
