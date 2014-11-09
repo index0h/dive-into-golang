@@ -30,7 +30,6 @@ func fifth() {
 	fmt.Println("Call: fifth")
 }
 
-
 func main() {
 	fmt.Println("Call: main.begin")
 
