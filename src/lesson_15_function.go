@@ -7,8 +7,8 @@ import (
 )
 
 // Example of simple function with two arguments
-func print(prefix, data string) {
-	fmt.Printf("Function %-20v: %v\n", prefix , data)
+func print(funcName, data string) {
+	fmt.Printf("Function %-20v: %v\n", funcName , data)
 }
 
 // Example of variable count of arguments
