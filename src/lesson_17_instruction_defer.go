@@ -32,7 +32,7 @@ func fifth() {
 
 
 func main() {
-	fmt.Println("Call: main - begin")
+	fmt.Println("Call: main.begin")
 
 	defer first()
 	defer second()
@@ -40,5 +40,5 @@ func main() {
 	defer fourth()
 	defer fifth()
 
-	fmt.Println("Call: main - end")
+	fmt.Println("Call: main.end")
 }
