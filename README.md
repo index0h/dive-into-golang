@@ -25,18 +25,37 @@
 * 09 - [Строки (string)](https://www.youtube.com/watch?v=NTNBno1ZQoY)
 * 10 - [Отображения (map)](https://www.youtube.com/watch?v=8MT3GYyf8KE)
 * 11 - [Указатели (pointer)](https://www.youtube.com/watch?v=wo3ewt7w5X8)
-* ?? - Chain
+* 19 - [Пользовательские типы](https://www.youtube.com/watch?v=nKqEWXEMt_8)
+* 20 - [Структуры](https://www.youtube.com/watch?v=_ZYf8jZkVZg)
+* 21 - [Интерфейсы](#)
+* 23 - [Каналы](#)
 
 ### Инструкции
 
 * 12 - [Ветвление (if)](https://www.youtube.com/watch?v=oxuuFCQAOF8)
 * 13 - [Ветвление (switch)](https://www.youtube.com/watch?v=bK_YLt7kStg)
 * 14 - [Циклы (for)](https://www.youtube.com/watch?v=FdxshTHUEF8)
-* ?? - defer
-* ?? - select
-* ?? - go
+* 17 - [defer](https://www.youtube.com/watch?v=ulzRcncbq5c)
+* 22 - [go](#)
+* 24 - [select](#)
 
-### Спец функции
+### Функции
 
-* ?? - init, main
-* ?? - panic, recover
+* 15 - [Функции](https://www.youtube.com/watch?v=RCoERjtS4tE)
+* 16 - [init()](https://www.youtube.com/watch?v=Zw96e5GBrow)
+* 18 - [panic() и recover()](https://www.youtube.com/watch?v=W9CZvnfaJUI)
+
+### Тестирование
+
+* 25 - [Модульное тестирование](#)
+* 26 - [Измерение эфективности](#)
+
+### Пакеты
+
+* 27 - [Пользовательские пакеты](#)
+* 28 - [Профилирование](#)
+* 29 - [Рефлексия](#)
+
+### Дополнительно
+
+* 15.5 - [Области видимости](#)
