@@ -36,7 +36,7 @@
 * 13 - [Ветвление (switch)](https://www.youtube.com/watch?v=bK_YLt7kStg)
 * 14 - [Циклы (for)](https://www.youtube.com/watch?v=FdxshTHUEF8)
 * 17 - [defer](https://www.youtube.com/watch?v=ulzRcncbq5c)
-* 22 - [go](#)
+* 22 - [go](https://www.youtube.com/watch?v=8C-T9sZ3A6g)
 * 24 - [select](#)
 
 ### Функции
