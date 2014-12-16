@@ -16,7 +16,9 @@ func Work(name string) {
 
 // Simple demonstration of goroutine
 func Sleep() {
+
 	go Work("simple")
+
 	time.Sleep(2 * time.Second)
 }
 
