@@ -27,7 +27,7 @@
 * 11 - [Указатели (pointer)](https://www.youtube.com/watch?v=wo3ewt7w5X8)
 * 19 - [Пользовательские типы](https://www.youtube.com/watch?v=nKqEWXEMt_8)
 * 20 - [Структуры](https://www.youtube.com/watch?v=_ZYf8jZkVZg)
-* 21 - [Интерфейсы](#)
+* 21 - [Интерфейсы](https://www.youtube.com/watch?v=knwWgtUzhoE)
 * 23 - [Каналы](#)
 
 ### Инструкции
