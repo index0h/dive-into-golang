@@ -28,7 +28,7 @@
 * 19 - [Пользовательские типы](https://www.youtube.com/watch?v=nKqEWXEMt_8)
 * 20 - [Структуры](https://www.youtube.com/watch?v=_ZYf8jZkVZg)
 * 21 - [Интерфейсы](https://www.youtube.com/watch?v=knwWgtUzhoE)
-* 23 - [Каналы](#)
+* 23 - [Каналы](https://www.youtube.com/watch?v=yg_G0vnYdhU)
 
 ### Инструкции
 
