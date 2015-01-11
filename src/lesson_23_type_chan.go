@@ -30,7 +30,6 @@ func writeToChan(channel chan <- string, data, prefix string) {
 }
 
 func main() {
-	sendData := ""
 	unBufferedChannel := make(chan string)
 	bufferedChannel := make(chan string, 10)
 
@@ -39,10 +38,9 @@ func main() {
 
 	// channel := unBufferedChannel // fatal error: all goroutines are asleep - deadlock!
 	channel := bufferedChannel
-	sendData = "FirstData"
-	fmt.Printf(writeFormat, "First", sendData)
+	fmt.Printf(writeFormat, "First", "FirstData")
 
-	channel <- sendData
+	channel <- "FirstData"
 
 	fmt.Printf(readFormat, "First", <-channel)
 	fmt.Println("\n------------------------------------------------------------------\n")
