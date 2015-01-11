@@ -6,8 +6,8 @@ import (
 )
 
 var (
-	readFormat  = "READ  %-8v: %v\n"
-	writeFormat = "WRITE %-8v: %v\n"
+	readFormat  = "RECEIVE %-8v: %v\n"
+	writeFormat = "SEND    %-8v: %v\n"
 )
 
 // Writes to stdout read data from channel
