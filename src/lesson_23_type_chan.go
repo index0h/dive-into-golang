@@ -30,7 +30,8 @@ func writeToChan(channel chan <- string, data, prefix string) {
 }
 
 func main() {
-	unBufferedChannel := make(chan string)
+	var unBufferedChannel chan string
+	unBufferedChannel = make(chan string)
 	bufferedChannel := make(chan string, 10)
 
 	defer close(bufferedChannel)
