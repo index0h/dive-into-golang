@@ -20,7 +20,7 @@ func readFromChan(channel <-chan string, prefix string) {
 }
 
 // Sends string by 1 symbol to channel
-func writeToChan(channel chan<- string, data, prefix string) {
+func writeToChan(channel chan <- string, data, prefix string) {
 	// <-channel // "It'll not work"
 
 	for _, symbol := range data {
