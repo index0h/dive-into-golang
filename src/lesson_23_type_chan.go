@@ -10,8 +10,8 @@ var (
 	writeFormat = "SEND    %-8v: %v\n"
 )
 
-// Writes to stdout read data from channel
-func readFromChan(channel <-chan string, prefix string) {
+// Receives data from channel
+func receive(channel <-chan string, prefix string) {
 	// channel <- "It'll not work"
 
 	for data := range channel {
@@ -20,7 +20,7 @@ func readFromChan(channel <-chan string, prefix string) {
 }
 
 // Sends string by 1 symbol to channel
-func writeToChan(channel chan <- string, data, prefix string) {
+func send(channel chan <- string, data, prefix string) {
 	// <-channel // "It'll not work"
 
 	for _, symbol := range data {
@@ -39,6 +39,7 @@ func main() {
 
 	// channel := unBufferedChannel // fatal error: all goroutines are asleep - deadlock!
 	channel := bufferedChannel
+	// defer close(channel) // panic: runtime error: close of closed channel
 	fmt.Printf(writeFormat, "First", "FirstData")
 
 	channel <- "FirstData"
@@ -48,18 +49,18 @@ func main() {
 
 	// Unbuffered channel in goroutines
 
-	go readFromChan(unBufferedChannel, "Second")
+	go receive(unBufferedChannel, "Second")
 
-	writeToChan(unBufferedChannel, "abcdef", "Second")
+	send(unBufferedChannel, "abcdef", "Second")
 
 	time.Sleep(100 * time.Millisecond)
 	fmt.Println("\n------------------------------------------------------------------\n")
 
 	// buffered channel in goroutines
 
-	go readFromChan(bufferedChannel, "Third")
+	go receive(bufferedChannel, "Third")
 
-	writeToChan(bufferedChannel, "abcdef", "Third")
+	send(bufferedChannel, "abcdef", "Third")
 
 	time.Sleep(100 * time.Millisecond)
 }
