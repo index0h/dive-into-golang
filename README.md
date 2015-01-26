@@ -3,6 +3,8 @@
 
 [youtube-channel]: https://www.youtube.com/playlist?list=PLBOo6DBmP5V9CAXxxl6EZxZpMmT_4ZOca
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/index0h/dive-into-golang?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)
+
 Уроки
 -----
 
