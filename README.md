@@ -39,7 +39,7 @@
 * 14 - [Циклы (for)](http://youtu.be/Iy9YbhMp5OU)
 * 17 - [defer](https://www.youtube.com/watch?v=ulzRcncbq5c)
 * 22 - [go](https://www.youtube.com/watch?v=8C-T9sZ3A6g)
-* 24 - [select](#)
+* 24 - [select](http://youtu.be/Pa39wtUShso)
 
 ### Функции
 
