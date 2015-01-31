@@ -10,23 +10,23 @@
 
 ## О языке 
 
-* 01 - [Введение](https://www.youtube.com/watch?v=rAiauhDf_zc)
+* 01 - [Введение](http://youtu.be/sAHzVzjM3WI)
 
 ## Основы языка
 
-* 02 - [Константы](https://www.youtube.com/watch?v=JVL84GFSXSA)
+* 02 - [Константы](http://youtu.be/Ch-qziSFolw)
 
 ### Типы данных
 
-* 03 - [Логический (boolean)](https://www.youtube.com/watch?v=T1QkT1ZYo8A)
-* 04 - [Целые числа (integer)](https://www.youtube.com/watch?v=ziMirtJi8FY)
-* 05 - [Вещественные числа (float)](https://www.youtube.com/watch?v=-Vy_E6WY1Os)
-* 06 - [Комплексные числа (complex)](https://www.youtube.com/watch?v=fSygx3Kad_A)
-* 07 - [Массивы (array)](https://www.youtube.com/watch?v=mOSDK6dsOxY)
-* 08 - [Срезы (slice)](https://www.youtube.com/watch?v=wOPQ5a1f47A)
-* 09 - [Строки (string)](https://www.youtube.com/watch?v=NTNBno1ZQoY)
-* 10 - [Отображения (map)](https://www.youtube.com/watch?v=8MT3GYyf8KE)
-* 11 - [Указатели (pointer)](https://www.youtube.com/watch?v=wo3ewt7w5X8)
+* 03 - [Логический (boolean)](http://youtu.be/zDfC0kATDmI)
+* 04 - [Целые числа (integer)](http://youtu.be/oZP88EB7scc)
+* 05 - [Вещественные числа (float)](http://youtu.be/8QKyQPxGQxU)
+* 06 - [Комплексные числа (complex)](http://youtu.be/cs7phHvXA5k)
+* 07 - [Массивы (array)](http://youtu.be/QppUmWEx4Us)
+* 08 - [Срезы (slice)](http://youtu.be/AyZbiR15q84)
+* 09 - [Строки (string)](http://youtu.be/a8sIdapl26g)
+* 10 - [Отображения (map)](http://youtu.be/ir7Ps3TW43U)
+* 11 - [Указатели (pointer)](http://youtu.be/IEOHwGW3AKU)
 * 19 - [Пользовательские типы](https://www.youtube.com/watch?v=nKqEWXEMt_8)
 * 20 - [Структуры](https://www.youtube.com/watch?v=_ZYf8jZkVZg)
 * 21 - [Интерфейсы](https://www.youtube.com/watch?v=knwWgtUzhoE)
@@ -34,9 +34,9 @@
 
 ### Инструкции
 
-* 12 - [Ветвление (if)](https://www.youtube.com/watch?v=oxuuFCQAOF8)
-* 13 - [Ветвление (switch)](https://www.youtube.com/watch?v=bK_YLt7kStg)
-* 14 - [Циклы (for)](https://www.youtube.com/watch?v=FdxshTHUEF8)
+* 12 - [Ветвление (if)](http://youtu.be/LUDAmVeAhlI)
+* 13 - [Ветвление (switch)](http://youtu.be/Twq0sXna1yU)
+* 14 - [Циклы (for)](http://youtu.be/Iy9YbhMp5OU)
 * 17 - [defer](https://www.youtube.com/watch?v=ulzRcncbq5c)
 * 22 - [go](https://www.youtube.com/watch?v=8C-T9sZ3A6g)
 * 24 - [select](#)
