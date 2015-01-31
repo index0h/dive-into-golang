@@ -36,9 +36,9 @@ func main() {
 			fmt.Printf(readFormat, "FRIST", firstValue)
 		case secondValue := <-second:
 			fmt.Printf(readFormat, "SECOND", secondValue)
-//		default:
-//			fmt.Println("DEFAULT")
-//			return
+		default:
+			fmt.Println("DEFAULT")
+			return
 		}
 	}
 }
