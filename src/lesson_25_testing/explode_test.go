@@ -5,6 +5,16 @@ import (
 	"reflect"
 )
 
+// Method demonstrates that `go test` will not run it
+func ItIsNotTest(t *testing.T) {
+	t.Fatal("I'm not test!")
+}
+
+// Wrong test function
+//func TestWrongTest() {
+//	// I'll not work
+//}
+
 // Test explodeNonEmpty with empty string
 func TestExplodeNonEmptyWithEmptyString(t *testing.T) {
 	var actual []string
@@ -44,3 +54,4 @@ func TestExplodeNonEmptyWithManyWordsAndManySpaces(t *testing.T) {
 		t.Errorf("Not equal\nexpected = %v\nactual = %v", expected, actual)
 	}
 }
+
