@@ -10,10 +10,10 @@ func main() {
 	var third []bool
 	fourth := []int{1, 2, 3, 4, 5, 6}
 
-	fmt.Printf("first  len(%d) cap(%d) = %v\n", len(first), cap(first),  first)  // first  len(5) cap(15) = [0 0 0 0 0]
-	fmt.Printf("second len(%d) cap(%d) = %v\n", len(second), cap(first), second) // second len(7) cap(15) = [0 0 0]
-	fmt.Printf("third  len(%d) cap(%d) = %v\n", len(third), cap(first),  third)  // third  len(0) cap(15) = []
-	fmt.Printf("fourth len(%d) cap(%d) = %v\n", len(fourth), cap(first), fourth) // fourth len(6) cap(15) = [1 2 3 4 5 6]
+	fmt.Printf("first  len(%d) cap(%d) = %v\n", len(first), cap(first),  first)   // first  len(5) cap(15) = [0 0 0 0 0]
+	fmt.Printf("second len(%d) cap(%d) = %v\n", len(second), cap(second), second) // second len(7) cap(3)  = [0 0 0]
+	fmt.Printf("third  len(%d) cap(%d) = %v\n", len(third), cap(third),  third)   // third  len(0) cap(0)  = []
+	fmt.Printf("fourth len(%d) cap(%d) = %v\n", len(fourth), cap(fourth), fourth) // fourth len(6) cap(6) = [1 2 3 4 5 6]
 
 	fmt.Println("\n------------------------------------------------------------------\n")
 
