@@ -1,0 +1,24 @@
+Переменные
+03
+
+Roman Levishchenko
+
+* Объявление переменных со значениями по умолчанию
+
+.play src/03-variables/01-var-default.go /START OMIT/,/END OMIT/
+
+* Объявление переменных с пользовательскими значениеми
+
+.play src/03-variables/02-var-not-default.go /START OMIT/,/END OMIT/
+
+* Множественное присваивание
+
+.play src/03-variables/03-multi-assignment.go /START OMIT/,/END OMIT/
+
+* Объявление с определением типа
+
+.play src/03-variables/04-auto-type-assignment.go /START OMIT/,/END OMIT/
+
+* Не используемая переменная
+
+.play src/03-variables/05-not-used.go /START OMIT/,/END OMIT/

@@ -1,0 +1,97 @@
+Целочисленные типы
+05
+
+Roman Levishchenko
+
+* Целочисленные со знаком
+
+- *int8* : [-128, 127]
+- *int16*: [-32768, 32767]
+- *int32*: [-2147483648, 2147483647]
+- *int64*: [-9223372036854775808, 9223372036854775807]
+
+Псевдонимы
+
+- *byte* - *int8*
+- *rune* - *int32*
+- *int* - *int32*, или *int64*, в зависимости от ОС
+
+* Целочисленные без знака
+
+- *uint8* : [0, 255]
+- *uint16*: [0, 65535]
+- *uint32*: [0, 4294967295]
+- *uint64*: [0, 18446744073709551615]
+
+Псевдонимы
+
+- *uint* - *uint32*, или *uint64*, в зависимости от ОС
+- *uintptr* - хранит указатель
+
+* Целочисленные типы по умолчанию 0
+
+.play src/05-type-int/01-default.go /START OMIT/,/END OMIT/
+
+* Передается по значению
+
+.play src/05-type-int/02-pass-by-value.go /START OMIT/,/END OMIT/
+
+* Математические операции
+
+.play src/05-type-int/03-math.go /START OMIT/,/END OMIT/
+
+* Математические операции с присвоением
+
+.play src/05-type-int/04-math-assignment.go /START OMIT/,/END OMIT/
+
+* Инкремент / декремент
+
+.play src/05-type-int/05-inc-dec.go /START OMIT/,/END OMIT/
+
+* Битовые операции: НЕ
+
+.play src/05-type-int/06-bitwise-not.go /START OMIT/,/END OMIT/
+
+* Битовые операции: И
+
+.play src/05-type-int/07-bitwise-and.go /START OMIT/,/END OMIT/
+
+* Битовые операции: ИЛИ
+
+.play src/05-type-int/08-bitwise-or.go /START OMIT/,/END OMIT/
+
+* Битовые операции: Исключающее ИЛИ
+
+.play src/05-type-int/09-bitwise-xor.go /START OMIT/,/END OMIT/
+
+* Битовые операции: И-НЕ
+
+.play src/05-type-int/10-bitwise-and-not.go /START OMIT/,/END OMIT/
+
+* Битовые операции: Сдвиг
+
+.play src/05-type-int/11-bitwise-shift.go /START OMIT/,/END OMIT/
+
+* Битовые операции: Остаток от деления
+
+.play src/05-type-int/12-bitwise-mod.go /START OMIT/,/END OMIT/
+
+* Битовые операции с присваиванием
+
+.play src/05-type-int/13-bitwise-assignment.go /START OMIT/,/END OMIT/
+
+* Операции сравнения с результатом типа bool
+
+.play src/05-type-int/14-equal-more-less.go /START OMIT/,/END OMIT/
+
+* Приведение целочисленных типов
+
+.play src/05-type-int/15-cast-int.go /START OMIT/,/END OMIT/
+
+* Приведение чисел с плавающей точкой
+
+.play src/05-type-int/16-cast-float.go /START OMIT/,/END OMIT/
+
+* К целым не приводятся
+
+.play src/05-type-int/17-not-cast.go /START OMIT/,/END OMIT/

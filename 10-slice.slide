@@ -1,0 +1,38 @@
+Срезы
+10
+
+Roman Levishchenko
+
+* Объявление срезов
+
+.play src/10-slice/01-default.go /START OMIT/,/END OMIT/
+
+* Многомерные срезы
+
+.play src/10-slice/02-many-level.go /START OMIT/,/END OMIT/
+
+* Передается по ссылке
+
+.play src/10-slice/03-pass-by-reference.go /START OMIT/,/END OMIT/
+
+* Срезы в действии
+
+.play src/10-slice/04-in-action.go /START OMIT/,/END OMIT/
+
+* Под капотом
+
+Срез внутри - это указатель с длинной и емкостью
+
+.play src/10-slice/05-inside.go /START OMIT/,/END OMIT/
+
+* Раширение срезов
+
+.play src/10-slice/06-append.go /START OMIT/,/END OMIT/
+
+* Копирование срезов
+
+.play src/10-slice/07-copy.go /START OMIT/,/END OMIT/
+
+* Копирование срезов в массив
+
+.play src/10-slice/08-copy-to-array.go /START OMIT/,/END OMIT/

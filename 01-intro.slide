@@ -1,0 +1,148 @@
+Обзор
+01
+
+Roman Levishchenko
+
+* Golang это
+
+- Кросс-компилируемый
+- Многопоточный
+- Со статической типизацией
+- Общего назначения
+
+* Немножко истории
+
+- Начал разрабатываться компанией Google в 2007
+- Первый публичный релиз в 2009
+- Проектированием занимались: Роберт Гризмер, Роб Пайк и Кен Томпсон
+
+* На данный момент поддерживает
+
+- Linux
+- MacOS
+- Windows
+- Android
+- FreeBSD
+- OpenBSD
+- DragonFly BSD
+- Plan9
+- Solaris
+
+* На Golang написаны
+
+.html src/01-intro/projects.html
+
+.caption Больше можно посмотреть у этих ребят: [[https://github.com/avelino/awesome-go][Awesome Go]]
+
+* Синтаксис: нет null
+
+.play src/01-intro/01-no-null.go /START OMIT/,/END OMIT/
+
+* Синтаксис: множественное присваивание
+
+.play src/01-intro/02-multi-assignment.go /START OMIT/,/END OMIT/
+
+* Синтаксис: доступ к методам, свойствам,...
+
+.code src/01-intro/public_private/mystruct.go /START OMIT/,/END OMIT/
+
+.play src/01-intro/03-public-private.go /START OMIT/,/END OMIT/
+
+* Синтаксис: перекрытие переменных
+
+.play src/01-intro/04-var-overlap.go /START OMIT/,/END OMIT/
+
+* Синтаксис: динамическое создание функций
+
+.play src/01-intro/05-dynamic-func.go /START OMIT/,/END OMIT/
+
+* Синтаксис: забытые переменные
+
+.play src/01-intro/06-forgot-var.go
+
+* Синтаксис: нет наследования
+
+.play src/01-intro/07-no-inheritance.go /START OMIT/,/END OMIT/
+
+* Синтаксис: нет перегрузки
+
+.play src/01-intro/08-no-overload.go /START OMIT/,/END OMIT/
+
+* Синтаксис: нет конструкторов
+
+.play src/01-intro/09-no-construct.go /START OMIT/,/END OMIT/
+
+* Синтаксис: нет implements
+
+.play src/01-intro/10-duck-interface.go /START OMIT/,/END OMIT/
+
+* Синтаксис: пост метод defer
+
+.play src/01-intro/11-defer.go /START OMIT/,/END OMIT/
+
+* Синтаксис: нет try-catch
+
+.play src/01-intro/12-error.go /START OMIT/,/END OMIT/
+
+* Синтаксис: мультипоточность
+
+.play src/01-intro/13-channel.go /START OMIT/,/END OMIT/
+
+* Экосистема: быстрая компиляция
+
+- Секунды
+- Процесс разработки на Golang похож на интерпретируемые языки
+
+* Экосистема: встроенный пакетный менеджер
+
+- go get ./...
+
+* Экосистема: нет динамических библиотек
+
+- Вру, они есть, но не приветствуется
+
+* Экосистема: кросскомпиляция
+
+- Нет препроцессора
+- API разных ОС используем в файлах с суффиксом
+
+Например
+
+- *file.go* - подключится для всех ОС
+- *file_windows.go* - подключится только для Windows
+- *file_darwin.go* - подключится только для MacOS
+
+* Экосистема: встроенные средства для тестирования
+
+- Unit тесты
+- Тесты производительности
+
+* Экосистема: встроенные средства анализа и исправления кода
+
+- go fmt
+- go vet
+- go fix
+
+* Экосистема: генератор документации
+
+- godoc
+
+* Golang крут для
+
+- Сетевые микро сервисы
+- Системное программирование
+
+* Golang НЕ стоит использовать для
+
+- Сайтики
+- Mainstream
+
+* Ок, с чего начать?
+
+- Для *nix, *BSD, MacOS
+
+.link https://github.com/moovweb/gvm Go Version Manager
+
+- Для Windows
+
+.link https://golang.org/doc/install#windows Официальная справка

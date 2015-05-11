@@ -1,0 +1,36 @@
+Булев тип
+04
+
+Roman Levishchenko
+
+* Булев тип по умолчанию false
+
+.play src/04-type-bool/01-default.go /START OMIT/,/END OMIT/
+
+* Передается по значению
+
+.play src/04-type-bool/02-pass-by-value.go /START OMIT/,/END OMIT/
+
+* Логические операции: НЕ
+
+.play src/04-type-bool/03-not.go /START OMIT/,/END OMIT/
+
+* Логические операции: И
+
+.play src/04-type-bool/04-and.go /START OMIT/,/END OMIT/
+
+* Логические операции: ИЛИ
+
+.play src/04-type-bool/05-or.go /START OMIT/,/END OMIT/
+
+* Операции сравнения: (не)равество
+
+.play src/04-type-bool/06-equal.go /START OMIT/,/END OMIT/
+
+* Операции сравнения: больше/меньше
+
+.play src/04-type-bool/07-more-less.go /START OMIT/,/END OMIT/
+
+* В bool не приводится ни какой тип
+
+.play src/04-type-bool/08-not-cast.go /START OMIT/,/END OMIT/

@@ -1,0 +1,20 @@
+Константы
+02
+
+Roman Levishchenko
+
+* Простое объявление констант
+
+.play src/02-constants/01-simple.go /START OMIT/,/END OMIT/
+
+* Константы с наследуемыми значениями
+
+.play src/02-constants/02-without-values.go /START OMIT/,/END OMIT/
+
+* IOTA
+
+.play src/02-constants/03-iota-1.go /START OMIT/,/END OMIT/
+
+* IOTA для битовых масок
+
+.play src/02-constants/04-iota-2.go /START OMIT/,/END OMIT/

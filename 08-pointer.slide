@@ -1,0 +1,20 @@
+Указатели
+08
+
+Roman Levishchenko
+
+* Объявление указателей: пустой указатель
+
+.play src/08-pointer/01-empty.go /START OMIT/,/END OMIT/
+
+* Объявление указателей: с автоматическим определением типа
+
+.play src/08-pointer/02-auto-type.go /START OMIT/,/END OMIT/
+
+* Объявление указателей: через функцию new
+
+.play src/08-pointer/03-new.go /START OMIT/,/END OMIT/
+
+* Указатели на указатели
+
+.play src/08-pointer/04-pointer-to-pointer.go /START OMIT/,/END OMIT/

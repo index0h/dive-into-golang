@@ -1,0 +1,50 @@
+Числа с плавающей точкой
+06
+
+Roman Levishchenko
+
+* Пределы типов с плавающей запятой
+
+- *float32*
+    max: 3.4028234663852886e+38
+    min: 1.401298464324817e-45
+
+- *float64*
+    max: 1.7976931348623157e+308
+    min: 5e-324
+
+* Числа с плавающей точкой по умолчанию 0
+
+.play src/06-type-float/01-default.go /START OMIT/,/END OMIT/
+
+* Передается по значению
+
+.play src/06-type-float/02-pass-by-value.go /START OMIT/,/END OMIT/
+
+* Математические операции
+
+.play src/06-type-float/03-math.go /START OMIT/,/END OMIT/
+
+* Математические операции с присвоением
+
+.play src/06-type-float/04-math-assignment.go /START OMIT/,/END OMIT/
+
+* Инкремент / декремент
+
+.play src/06-type-float/05-inc-dec.go /START OMIT/,/END OMIT/
+
+* Операции сравнения с результатом типа bool
+
+.play src/06-type-float/06-equal-more-less.go /START OMIT/,/END OMIT/
+
+* Приведение типов от чисел с плавающей запятой
+
+.play src/06-type-float/07-cast-float.go /START OMIT/,/END OMIT/
+
+* Приведение типов от целых чисел
+
+.play src/06-type-float/08-cast-int.go /START OMIT/,/END OMIT/
+
+* К числам с плавающей точкой не приводятся
+
+.play src/06-type-float/09-not-cast.go /START OMIT/,/END OMIT/

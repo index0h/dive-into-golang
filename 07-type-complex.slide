@@ -1,0 +1,54 @@
+Комплексные числа
+07
+
+Roman Levishchenko
+
+* Пределы комплексных чисел (реальная и мнимая части)
+
+- *complex64*
+    max: 3.4028234663852886e+38
+    min: 1.401298464324817e-45
+
+- *complex128*
+    max: 1.7976931348623157e+308
+    min: 5e-324
+
+* Комплексные числа по умолчанию 0 + 0i
+
+.play src/07-type-complex/01-default.go /START OMIT/,/END OMIT/
+
+* Передается по значению
+
+.play src/07-type-complex/02-pass-by-value.go /START OMIT/,/END OMIT/
+
+* Реальная и мнимая части
+
+.play src/07-type-complex/03-real-imag.go /START OMIT/,/END OMIT/
+
+* Математические операции
+
+.play src/07-type-complex/04-math.go /START OMIT/,/END OMIT/
+
+* Математические операции с присвоением
+
+.play src/07-type-complex/05-math-assignment.go /START OMIT/,/END OMIT/
+
+* Инкремент / декремент
+
+.play src/07-type-complex/06-inc-dec.go /START OMIT/,/END OMIT/
+
+* Операции сравнения с результатом типа bool
+
+.play src/07-type-complex/07-equal.go /START OMIT/,/END OMIT/
+
+* Приведение типов от комплексных чисел
+
+.play src/07-type-complex/08-cast-complex.go /START OMIT/,/END OMIT/
+
+* Приведение типов от чисел с плавающей точкой
+
+.play src/07-type-complex/09-cast-float.go /START OMIT/,/END OMIT/
+
+* К комплексным числам не приводятся
+
+.play src/07-type-complex/10-not-cast.go /START OMIT/,/END OMIT/

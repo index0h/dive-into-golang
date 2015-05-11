@@ -1,0 +1,24 @@
+Массивы
+09
+
+Roman Levishchenko
+
+* Объявление массивов
+
+.play src/09-array/01-default.go /START OMIT/,/END OMIT/
+
+* Многомерные массивы
+
+.play src/09-array/02-many-level.go /START OMIT/,/END OMIT/
+
+* Работа с элементом
+
+.play src/09-array/03-element.go /START OMIT/,/END OMIT/
+
+* Передается по значению
+
+.play src/09-array/04-pass-by-value.go /START OMIT/,/END OMIT/
+
+* Длина массива
+
+.play src/09-array/05-length.go /START OMIT/,/END OMIT/
