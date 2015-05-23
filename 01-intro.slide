@@ -60,33 +60,30 @@ Roman Levishchenko
 
 .play src/01-intro/06-forgot-var.go
 
-* Синтаксис: нет наследования
+* Синтаксис: нет наследования и переопределений
 
+.code src/01-intro/07-no-inheritance.go /START STRUCT OMIT/,/END STRUCT OMIT/
 .play src/01-intro/07-no-inheritance.go /START OMIT/,/END OMIT/
-
-* Синтаксис: нет перегрузки
-
-.play src/01-intro/08-no-overload.go /START OMIT/,/END OMIT/
 
 * Синтаксис: нет конструкторов
 
-.play src/01-intro/09-no-construct.go /START OMIT/,/END OMIT/
+.play src/01-intro/08-no-construct.go /START OMIT/,/END OMIT/
 
 * Синтаксис: нет implements
 
-.play src/01-intro/10-duck-interface.go /START OMIT/,/END OMIT/
+.play src/01-intro/09-duck-interface.go /START OMIT/,/END OMIT/
 
 * Синтаксис: пост метод defer
 
-.play src/01-intro/11-defer.go /START OMIT/,/END OMIT/
+.play src/01-intro/10-defer.go /START OMIT/,/END OMIT/
 
 * Синтаксис: нет try-catch
 
-.play src/01-intro/12-error.go /START OMIT/,/END OMIT/
+.play src/01-intro/11-error.go /START OMIT/,/END OMIT/
 
 * Синтаксис: мультипоточность
 
-.play src/01-intro/13-channel.go /START OMIT/,/END OMIT/
+.play src/01-intro/12-channel.go /START OMIT/,/END OMIT/
 
 * Экосистема: быстрая компиляция
 
@@ -95,7 +92,7 @@ Roman Levishchenko
 
 * Экосистема: встроенный пакетный менеджер
 
-- go get ./...
+- *go* *get* *./...*
 
 * Экосистема: нет динамических библиотек
 
@@ -117,25 +114,39 @@ Roman Levishchenko
 - Unit тесты
 - Тесты производительности
 
+Например
+
+- *my_struct.go* - функционал MyStruct
+- *my_struct_test.go* - тесты для MyStruct
+
+Запуск тестов
+
+*go* *test*
+
+Запуск бенчмарков
+
+*go* *test* *-bench* *.*
+
 * Экосистема: встроенные средства анализа и исправления кода
 
-- go fmt
-- go vet
-- go fix
+- *go* *fmt*
+- *go* *vet*
+- *go* *fix*
 
 * Экосистема: генератор документации
 
-- godoc
+- *godoc*
 
 * Golang крут для
 
 - Сетевые микро сервисы
-- Системное программирование
+- Задачи, завязанные на мультипоточность
+- Прикладные задачи
 
 * Golang НЕ стоит использовать для
 
 - Сайтики
-- Mainstream
+- Mainstream проекты
 
 * Ок, с чего начать?
 
@@ -145,4 +156,4 @@ Roman Levishchenko
 
 - Для Windows
 
-.link https://golang.org/doc/install#windows Официальная справка
+.link https://golang.org/dl/ Официальный установщик

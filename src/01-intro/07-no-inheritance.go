@@ -2,20 +2,24 @@ package main
 
 import "fmt"
 
-// START OMIT
-type Embedded struct {
-	First string
-}
-type Aggregated Embedded
-type Parent struct {
-	Embedded
-	Aggr Aggregated
+// START STRUCT OMIT
+type SubStruct struct {
+	Data string
 }
 
-func main() {
-	Var := Parent{}
-	Var.First = "first"
-	Var.Aggr.First = "second"
-	fmt.Println(Var)
+type Parent struct {
+	Data string
+	SubStruct
+	Aggregated SubStruct
 }
+// END STRUCT OMIT
+
+func main() {
+// START OMIT
+Var := Parent{}
+Var.Data = "first"
+Var.SubStruct.Data = "second"
+Var.Aggregated.Data = "third"
+fmt.Println(Var)
 // END OMIT
+}

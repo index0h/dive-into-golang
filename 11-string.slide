@@ -1,0 +1,36 @@
+Строки
+11
+
+Roman Levishchenko
+
+* Спецсимволы
+
+.html src/11-string/special-symbols.html
+
+* Символы Unicode
+
+.html src/11-string/unicode-symbols.html
+
+* Объявление строк
+
+.play src/11-string/01-default.go /START OMIT/,/END OMIT/
+
+* Передается по значению
+
+.play src/11-string/02-pass-by-value.go /START OMIT/,/END OMIT/
+
+* Конкатенация и подстроки
+
+.play src/11-string/03-element.go /START OMIT/,/END OMIT/
+
+* Под капотом UTF-8
+
+.play src/11-string/04-inside.go /START OMIT/,/END OMIT/
+
+* Строки и Rune
+
+.play src/11-string/05-rune.go /START OMIT/,/END OMIT/
+
+* Операции сравнения
+
+.play src/11-string/06-equal-more-less.go /START OMIT/,/END OMIT/

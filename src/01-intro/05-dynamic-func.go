@@ -7,6 +7,7 @@ func main() {
 MyFunc := func(value string) {
 	fmt.Println(value)
 }
+
 MyFunc("Hello world")
 // END OMIT
 }

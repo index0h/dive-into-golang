@@ -4,8 +4,10 @@ import "fmt"
 
 func main() {
 // START OMIT
-var Var uint
+var VarUint uint
+var VarBool bool
 // END OMIT
 
-fmt.Printf("%s (%T): %v", "Var", Var, Var)
+	fmt.Printf("%s (%T): %v\n", "VarUint", VarUint, VarUint)
+	fmt.Printf("%s (%T): %v", "VarBool", VarBool, VarBool)
 }
