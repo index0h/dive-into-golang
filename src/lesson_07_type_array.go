@@ -19,7 +19,7 @@ func main() {
 	fmt.Printf("fifth  len(%d) = %v\n\n", len(fifth),  fifth)  // fifth  len(2) = [[1 0] [5.4 7.7]]
 
 	fmt.Println("second[2]   = ", second[2])   // second[2]   = -3
-	fmt.Println("fifth[0][1] = ", fifth[1][0]) // fifth[0][1] = 5.4
+	fmt.Println("fifth[1][0] = ", fifth[1][0]) // fifth[1][0] = 5.4
 
 	fmt.Println("\n------------------------------------------------------------------\n")
 
